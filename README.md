@@ -1,13 +1,11 @@
 [![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=4186278&assignment_repo_type=AssignmentRepo)
 # Lab 2 : Tuples
-
-## Task
-
 1. Write a function `time` that represents the 12h formatted time as a tuple.
   - If hour value is beyond `[1,12]` range then set hour value to `12`
     - Write an auxiliary function `areHoursInvalid` that checks if an hour value is not valid
   - If minute value is beyond `[0,59]` range then set minute value to `0`
     - Write an auxiliary function `areMinutesInvalid` that checks if a minute value is not valid
+## Task
 2. Write a function `lessThen` compares if time, represented by a first tuple parameter, is less then a second time tuple parameter.
 
 ## Test
